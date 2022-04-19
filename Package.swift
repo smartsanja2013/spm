@@ -8,11 +8,11 @@ let package = Package(
     products: [
         .library(
             name: "Logger",
-            type: .static,
+            type: .dynamic,
             targets: ["LoggerTarget"]),
         .library(
             name: "HelloWorld",
-            type: .static,
+            type: .dynamic,
             targets: ["HelloWorldTarget"]),
     ],
     dependencies: [
