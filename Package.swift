@@ -50,6 +50,6 @@ let package = Package(
                 "Logger"
               ]
             ),
-        .binaryTarget(name: "HelloWorld", url: "https://sanjtestbucketspm.s3.ap-southeast-1.amazonaws.com/HelloWorld.xcframework.zip", checksum: "db8731bb1ed5f27d213a286b402d600fed911d29df221d1418a2b52382eec543")
+        .binaryTarget(name: "HelloWorld", url: "https://sanjtestbucketspm.s3.ap-southeast-1.amazonaws.com/HelloWorld.xcframework.zip", checksum: "864dade3e4f8f30fc263a0472f8837f2328e8a9718f3f25577d51f41701f67d4")
     ]
 )
