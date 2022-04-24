@@ -36,7 +36,7 @@ let package = Package(
                 .product(name: "CocoaLumberjack", package: "CocoaLumberjack", condition: .when(platforms: [.iOS]))
               ]
             ),
-        .binaryTarget(name: "Logger", url: "https://sanjtestbucketspm.s3.ap-southeast-1.amazonaws.com/Logger.xcframework.zip", checksum: "f18e05daa7fa723215efdbd61ecf735e243b5f7c73e6ba571cfe361f2b3e23fd"),
+        .binaryTarget(name: "Logger", url: "https://sanjtestbucketspm.s3.ap-southeast-1.amazonaws.com/Logger.xcframework.zip", checksum: "b387da959d270d4cc52a3c03764aeb3e10f10799c8b311b941a53388e4547fac"),
         .target(
               name: "HelloWorldTarget",
               dependencies: [.target(name: "HelloWorldWrapper",
@@ -50,6 +50,6 @@ let package = Package(
                 "Logger"
               ]
             ),
-        .binaryTarget(name: "HelloWorld", url: "https://sanjtestbucketspm.s3.ap-southeast-1.amazonaws.com/HelloWorld.xcframework.zip", checksum: "c9f48130532ba1ead5e06168f7bc21f0151886bfcf768e60973f2afe80d6aa7f")
+        .binaryTarget(name: "HelloWorld", url: "https://sanjtestbucketspm.s3.ap-southeast-1.amazonaws.com/HelloWorld.xcframework.zip", checksum: "db8731bb1ed5f27d213a286b402d600fed911d29df221d1418a2b52382eec543")
     ]
 )
